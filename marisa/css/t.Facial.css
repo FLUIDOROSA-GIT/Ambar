@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:#153448;
+    margin:0;
+    color: #a6cde7;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.section1 {
+    background-color: #DFD0B8;
+    height: 500px; /* Establece la altura deseada */
+    overflow: hidden; /* Opcional: oculta el contenido que sobresalga */
+        background-image: url('https://plus.unsplash.com/premium_photo-1661439827857-0f05c078ef5b?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-attachment: fixed; /* Fija la imagen en su posición mientras te desplazas */
+        background-position: center top; /* Ajusta la posición inicial de la imagen en la parte superior */
+        height: 80vh; /* Establece la altura deseada para la sección */
+}
+.card-img-top  {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+.section1 .card {
+    position: relative;
+    overflow: hidden; 
+}
+
+.section1 .card-title {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DFD0B8;
+    padding: 10px 20px;
+    color:#948979;
+    text-align: center;
+    border-radius: 20%;
+}
+.cmsmasters_column_inner {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+}
+/*seccion texto*/
+.section2{
+    width: 100%;
+    height: 400px;
+    margin-top:0;
+    background-color: #FEFAF6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-text1{
+    width: 600px;
+    height: auto;
+}
+.text-parrafo {
+    /* Establece la familia de fuentes para el texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Define el color del texto */
+    color: #DFD0B8;
+    /* Centra el texto horizontalmente dentro de su contenedor */
+    text-align: center;
+    /* Establece la altura de línea del texto */
+    line-height: 30px;
+    /* Establece el ancho máximo del texto */
+    max-width: 80%;
+    /* Aplica un margen automático tanto en la parte superior como en la inferior del texto, centrándolo horizontalmente dentro de su contenedor */
+    margin: auto;
+    /* Utiliza Flexbox para controlar el diseño del texto y sus elementos secundarios */
+    display: flex;
+    /* Centra el contenido horizontalmente dentro del contenedor Flexbox */
+    justify-content: center;
+    /* Centra el contenido verticalmente dentro del contenedor Flexbox */
+    align-items: center;
+    /* Establece la dirección de los elementos secundarios dentro del contenedor Flexbox como una columna, lo que significa que los elementos se apilarán verticalmente uno encima del otro */
+    flex-direction: column;
+    margin:10%;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    width:  100%;
+    height:auto;
+    background-color: #948979;
+    flex-wrap:wrap;
+}
+.col-info {
+    /* Esto dividirá la sección en dos columnas con un espacio de 10px entre ellas */
+    flex: 0 0 calc(50% - 10px);
+    /*color de contorno sacar */ 
+    border: 2px solid #153448; 
+    /* Asegura que el contorno no aumente el tamaño de los elementos */
+    box-sizing: border-box; 
+     /* margen entre los elementos */
+    margin: 5px;
+}
+.col-info-text{
+    text-align: center;
+    color:#DFD0B8;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.section4{
+    width: 100%;
+    height: 80vh;
+    background-color: #DFD0B8;
+    height: 500px;
+        /* Utiliza Flexbox para organizar los elementos internos */
+    display: flex; 
+    /* Espacia los elementos uniformemente dentro de la sección */
+    justify-content: space-between;
+        align-items: center;
+        background-image: url('https://plus.unsplash.com/premium_photo-1661439827857-0f05c078ef5b?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+        background-size: cover; 
+        /* Evita que la imagen se repita */
+        background-repeat: no-repeat; 
+        /* Fija la imagen en su posición mientras te desplazas */
+        background-attachment: fixed; 
+        /* Ajusta la posición inicial de la imagen en la parte superior */
+        background-position: center top; 
+}
+.col-flotanteA {
+    display: flex; /* Organiza los elementos en línea */
+    justify-content: flex-end; /* Alinea los elementos al extremo derecho */
+    margin-left:10px;
+}
+.col-flotante-1,
+.flotante2 {
+    border: 2px solid #153448;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: calc(40vh - 4px); 
+    height: 60vh;
+    /* Coloca los elementos uno al lado del otro */
+    display: inline-block; 
+    margin-top: 30px;
+    margin-left:20px;
+}
+.col-flotante-1 {
+    background-color: white;
+    margin-left: 95vh;
+}
+
+.flotante2 {
+    background-color:white;
+} 
+
+@media (max-width: 740px) {
+    .col-flotanteA  {
+        width: calc(100% - 20px); /* Ocupa todo el ancho del contenedor padre en dispositivos móviles */
+    }
+} 
+.section5{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Para centrar el texto dentro de los elementos */
+    height:auto; /* Ajusta la altura según tus necesidades */
+}
+.card {
+    max-width: 200px; /* Limita el ancho de los cards */
+    margin: 10px; /* Añade espacio entre los cards */
+}
+.card-img-top{
+    
+    height: auto;
+    margin: 10px;
+    margin-inline-end:  20px;
+}
+.row {
+    display: flex; /* Utiliza Flexbox para los elementos de la fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    
+}
+.section6{
+    width: 100%;
+    height: 80vh;
+    background-color: #DFD0B8;
+    height: 500px;
+        /* Utiliza Flexbox para organizar los elementos internos */
+    display: flex; 
+    /* Espacia los elementos uniformemente dentro de la sección */
+    justify-content: space-between;
+        align-items: center;
+        background-image: url('https://plus.unsplash.com/premium_photo-1661439827857-0f05c078ef5b?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+        background-size: cover; 
+        /* Evita que la imagen se repita */
+        background-repeat: no-repeat; 
+        /* Fija la imagen en su posición mientras te desplazas */
+        background-attachment: fixed; 
+        /* Ajusta la posición inicial de la imagen en la parte superior */
+        background-position: center top;
+}
+.text-boton {
+    border: 2px solid #153448;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: calc(40vh - 4px); 
+    height: 60vh;
+    margin-top: 15px;
+    margin-left:20px;
+    background-color:transparent;
+    margin-left: 140vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    color: black;
+}
+@media (max-width: 740px) {
+    .text-boton  {
+        width: calc(100% - 20px); /* Ocupa todo el ancho del contenedor padre en dispositivos móviles */
+    }
+} 
+.boton{
+    position:  relative;  
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+footer{
+    background-color: #153448;
+    height:  100px;
+    
+
+}
