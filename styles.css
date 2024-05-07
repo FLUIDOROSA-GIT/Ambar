@@ -4,12 +4,14 @@
 }
 body {
     margin: 0;
+    width: 100%;
 }
 
 
 
 .content {
     padding-top: 106px;
+    width: 100%;
     
 }
 
@@ -23,7 +25,7 @@ body {
 }
 
 .footerInner {
-    width: 80%; 
+    width: 100%; 
     margin: 0 auto; 
     text-align: center; 
 }
@@ -40,4 +42,22 @@ body {
     color: #fff;
     text-decoration: none;
     margin-right: 10px; 
+}
+.container-fluid {
+    width: 100%;
+}
+
+@media screen and (max-width: 412px){
+    .footer {
+        width: 100%;
+    }
+    img {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 412px){
+    img {
+        width: 100%;
+    }
 }
