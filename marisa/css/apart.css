@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+}
+.content {
+    padding-top: 106px;
+}
+header{
+    height: 80px;
+}
+
+.section1 {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    overflow: hidden;
+    background-color: #948979;
+}
+
+.part1 {
+    color: #948979;
+}
+
+.text-center-1 {
+    padding: 20px 30px;
+    color: #EADBC8;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #948979;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.part-img {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.part1-img {
+    width: 100%;
+    max-width: 180vh;
+    height: auto;
+}
+
+.text-p {
+    margin-top: 50px;
+    text-align: center;
+    color: #948979;
+    padding: 0 10px;
+}
+
+.a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto */
+}
+
+
+/*foter*/
+.footer {
+    background-color: #102C57;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.footerInner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerLogo img {
+    width: 300px;
+}
+
+.footerLoc h3 {
+    margin-bottom: 10px;
+}
+
+.redesSoc a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .part1-img {
+        max-width: 140vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .part1-img {
+        max-width: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .part1 {
+        position: static;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .part1-img {
+        width: 100%;
+        max-width: 70vh;
+    }
+
+    h2 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+    }
+
+    .text-p {
+        margin: 20px 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .part1-img {
+        width: 100%;
+        max-width: 50vh;
+    }
+
+    h2 {
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .text-p {
+        margin: 15px 0;
+        padding: 0 5px;
+        text-align: center;
+    }
+}
