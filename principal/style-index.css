@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+
+/* página principal */
+
+/* -------------carrousel------------- */
+.carrous {
+  background: linear-gradient(#dac0a3, #fefaf6);
+}
+.container-carr-img {
+  height: 680px !important;
+}
+.container-carr-img h5 {
+  font-size: 3.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #c0cfe6;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container-carr-img p {
+  font-size: 2.3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #dac0a3;
+  font-family: "Josefin Sans", sans-serif;
+}
+.img-carr {
+  height: 680px;
+}
+/* ------------bienvenida----------- */
+.info {
+  background-color: #fefaf6;
+  height: 550px;
+}
+.welcome {
+  width: 50%;
+  height: 500px;
+}
+.welcome h4 {
+  color: #dac0a3;
+  padding: 5%;
+}
+.welcome h3,
+.welcome h6 {
+  color: #102c57;
+  padding: 3%;
+}
+
+/* -------sección 2----------- */
+.section2 p {
+  font-size: 1.5em;
+  color: #102c57;
+}
+.bt-section2 {
+  display: flex !important;
+  justify-content: end !important;
+}
+.container-imgs {
+  height: 600px;
+}
+.subcontainer {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefaf6;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+.subcontainer:hover {
+  transform: scale(1.1);
+}
+.sub1 {
+  background-image: url(img/masajes-señor.jpg);
+  background-size: cover;
+}
+.sub2 {
+  background-image: url(img/estetica-facial.jpg);
+  background-size: cover;
+}
+.sub3 {
+  background-image: url(img/relleno.jpg);
+  background-size: cover;
+}
+.sub4 {
+  background-image: url(img/depilacion2.jpg);
+  background-size: cover;
+}
+.sub5 {
+  background-image: url(img/flores.png);
+  background-size: cover;
+}
+.sub6 {
+  background-image: url(img/carrousel.jpg);
+  background-size: cover;
+}
+
+/* -----------sección 3----------- */
+.container-text-section3 {
+  height: 600px;
+  color: #102c57;
+}
+.img-section3 {
+  background-image: url(img/pexels-burst-374148\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.text-section3 {
+  padding: 18%;
+}
+.text-section3 h4 {
+  color: #dac0a3;
+  padding: 3% 0 15% 0;
+}
+.text-section3 p {
+  color: #102c57;
+  font-weight: 1.3em;
+}
+
+/* --------------Sección 4---------- */
+.section4 {
+  background-image: url(img/Sin\ título-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: rgba(65, 26, 26, 0.562);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.text-section4 {
+  background-color: #5555;
+  height: 350px;
+}
+.text-section4 h3 {
+  padding-top: 55px !important;
+  color: #976c3b;
+  font-size: 1.8em !important;
+}
+.text-section4 h2 {
+  margin: 50px 20px 45px 20px;
+  color: #102c57;
+  font-size: 1.6em;
+}
+
+/* ----------mediaqueries------- */
+/* medium */
+@media screen and (min-width: 557px) and (max-width: 990px) {
+  .container-carr-img {
+    height: 400px !important;
+  }
+  .img-carr {
+    height: 400px !important;
+  }
+  .info {
+    height: 450px;
+  }
+  .welcome {
+    width: 75%;
+    height: 400px;
+  }
+  .welcome h4 {
+    padding: 3%;
+  }
+  /* sectión 2 */
+  .section2 p {
+    font-size: 1.1em;
+  }
+  .container-imgs {
+    height: 850px;
+  }
+  .subcontainer {
+    height: 250px;
+    font-size: 1.2em;
+  }
+
+  /* sección 3 */
+  .container-text-section3 {
+    height: 400px;
+  }
+  .img-section3 {
+    height: 400px;
+  }
+  .text-section3 {
+    padding: 5%;
+  }
+  .text-section3 h4 {
+    padding: 3% 0 10% 0;
+  }
+
+  /* sección 4 */
+  .text-section4 h3 {
+    padding-top: 15px;
+  }
+  .text-section4 h2 {
+    margin: 30px 10px 15px 10px;
+  }
+}
+
+/* small */
+@media screen and (max-width: 576px) {
+  .container-carr-img {
+    height: 200px !important;
+  }
+  .img-carr {
+    height: 200px !important;
+  }
+  .info {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+  }
+  .welcome {
+    width: 100%;
+    height: 400px;
+  }
+  .welcome h4 {
+    padding: 0;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  .welcome h3 {
+    font-size: 1.5em;
+  }
+  .welcome a,
+  .bt-section2 a,
+  .text-section4 a {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 !important;
+    line-height: 40px;
+  }
+  /* sección 2 */
+  .section2 p {
+    width: 260px !important;
+    font-size: 1em;
+  }
+  .bt-section2 a {
+    padding: 0 5px !important;
+  }
+  .container-imgs {
+    height: 800px;
+    width: 97%;
+  }
+  /* sección 3 */
+  .section3 {
+    height: 330px;
+  }
+  .container-text-section3 {
+    height: 330px;
+  }
+  .img-section3 {
+    display: none;
+  }
+  .text-section3 {
+    padding: 0;
+    margin-left: 12px;
+  }
+  .text-section3 h4 {
+    padding: 5px 0;
+  }
+  /* sección 4 */
+  .section4{
+    height: 500px;
+  }
+  .text-section4 {
+    height: 400px;
+    padding: 15px 0;
+    margin: auto 10px;
+  }
+  .text-section4 a {
+    width: 200px;
+    margin-top: 15px;
+  }
+  .text-section4 h3 {
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .text-section4 h2 {
+    font-size: 1.2em;
+  }
+}
+
