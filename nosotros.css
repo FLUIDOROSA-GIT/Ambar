@@ -30,7 +30,7 @@ p {
     margin:auto;
     width: 500px;
     height: 400px;
-background-image: url(../img/nosotros.jpg);
+background-image: url(./images/nosotros.jpg);
 background-repeat: no-repeat;
 background-size: contain;
 }
