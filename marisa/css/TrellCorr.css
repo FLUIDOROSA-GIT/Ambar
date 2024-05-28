@@ -93,6 +93,7 @@
     height: auto;
     background-color:white;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .col-info {
