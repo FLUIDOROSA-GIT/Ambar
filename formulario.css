@@ -1,0 +1,79 @@
+/* Estilos generales */
+
+
+main {
+    font-family: Arial, sans-serif;
+    
+    background-color: #FEFAF6;
+    
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FEFAF6;
+    padding: 20px;
+    
+   
+}
+.contacto{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+   padding: 25px 15px;
+    overflow: hidden;
+}
+h1{
+
+    text-align: center;
+    padding-top: 10px;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    color: #333333;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+    color: #333333;
+}
+p{
+    text-align: right;
+    margin-right: 40px;
+    color: #333333;
+}
+.form-group {
+    margin-bottom: 70px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
