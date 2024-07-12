@@ -1,0 +1,117 @@
+/* Estilos para la sección del formulario */
+/* section{
+    margin-top: 60px;
+    margin-bottom: 10px;
+} */
+/* Estilos para la sección info */
+.info {
+    background-color: #FEFAF6;
+    padding: 10px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.info p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #333333;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.formulario .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #DFD0B8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.formulario .form-group {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #948979;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario button,
+.formulario input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #948979;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formulario button:hover,
+.formulario input[type="submit"]:hover {
+    background-color: #332a1a;
+}
+
+.formulario span {
+    display: block;
+    margin-top: 5px;
+    color: #666666;
+    font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .formulario .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario .container {
+        padding: 10px;
+    }
+
+    .formulario button,
+    .formulario input[type="submit"] {
+        padding: 8px;
+    }
+}
